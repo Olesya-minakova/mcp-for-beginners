@@ -10,6 +10,12 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+@mcp.tool()
+def greet(name: str) -> str:
+    """Generate a greeting."""
+    return f"Hello, {name}!"
+
+
 @mcp.resource("file://{path}")
 def read_file(path: str) -> str:
     """Read a file from disk."""
