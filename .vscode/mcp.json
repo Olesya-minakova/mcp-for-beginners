@@ -1,0 +1,11 @@
+{
+  "inputs": [],
+  "servers": {
+    "my-mcp-demo": {
+      "command": "python",
+      "args": [
+        "/workspaces/mcp-for-beginners/my-mcp-demo/server.py"
+      ]
+    }
+  }
+}
